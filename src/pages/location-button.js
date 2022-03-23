@@ -37,7 +37,7 @@ const LocationButton = () => {
         return button;
       },
       _clicked: function (e) {
-        L.DomEvent.stopPropagation(e);
+        //L.DomEvent.stopPropagation(e);
 
         // this.removeLocate();
 
